@@ -1,0 +1,46 @@
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+example: text="REPLACE THIS TEXT FOR TRANSLATE"
+
+
+<?xml version="1.0" type="translate"?>
+<Translate>
+   <Language text="English"/>
+   <Token tag="Install_Button" text="INSTALL"/>
+   <Token tag="Install_ErrorNotAbsolute" text="The path must be absolute!"/>
+   <Token tag="Install_ErrorNotDir" text="This is not a folder!"/>
+   <Token tag="Install_ErrorNotEmptyDir" text="Folder must be empty!"/>
+   <Token tag="Install_ErrorInstall" text="Something interferes with the work of the launcher."/>
+   <Token tag="Title_Error" text="Error"/>
+   <Token tag="Play_Button" text="PLAY"/>
+   <Token tag="Launcher_CheckUpdate" text="CHECKING FOR LAUNCHER UPDATES..."/>
+   <Token tag="Game_CheckUpdate" text="CHECKING FOR GAME UPDATES..."/>
+   <Token tag="Download_Update" text="DOWNLOADING UPDATES..."/>
+   <Token tag="Game_ReadyToPlay" text="IS UP TO DATE!"/>
+   <Token tag="Game_Error" text="UPDATE ERROR!"/>
+   
+   <Token tag="Settings_DisplayMode" text="Display Mode"/>
+   <Token tag="Settings_WindowFullScreen" text="Fullscreen"/>
+   <Token tag="Settings_WindowNormal" text="Windowed"/>
+   <Token tag="Settings_WindowNoBorder" text="Borderless Fullscreen"/>
+   <Token tag="Settings_VideoResolution" text="Video Resolution"/>
+   <Token tag="Settings_RefreshRate" text="Refresh Rate"/>
+   <Token tag="Settings_AspectRatio" text="Aspect Ratio"/>
+   <Token tag="Settings_Default" text="Default"/>
+   <Token tag="Settings_GameDX" text="Game DirectX"/>
+   <Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
+   <Token tag="Settings_New" text="New"/>
+   <Token tag="Settings_LaunchParams" text="Launch Params"/>
+   
+   <Token tag="Launcher_UpdateRestart" text="Launcher updated.\nPlease run it again."/>
+   <Token tag="Launcher_UpdateError" text="Update failed.\nPlease restart launcher."/>
+   <Token tag="Launcher_InvalidPath" text="Invalid characters found. The game may not work correctly.%invalid_path%"/>
+
+</Translate>
