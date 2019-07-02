@@ -251,6 +251,9 @@ replace only "TRANSLATE" text!
 		"GameUI_MouseRaw_ToolTip"	"TRANSLATE"
 		"[english]GameUI_MouseRaw_ToolTip"	"Raw input reads mouse movement directly from the device, bypassing control panel mouse settings, and providing more reliable mouse movement."
 		
+		"ClientMod_MotdMuteAudio"	"TRANSLATE"
+		"[english]ClientMod_MotdMuteAudio"	"Mute sounds"
+		
 		"ClientMod_FlashWindow"	"TRANSLATE"
 		"[english]ClientMod_FlashWindow"	"Flash window if a player is respawn"
 		
