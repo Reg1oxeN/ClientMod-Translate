@@ -9,7 +9,6 @@ replace only "TRANSLATE" text!
 replace only "TRANSLATE" text!
 replace only "TRANSLATE" text!
 
-
 "lang"
 {
 	"Language" "TRANSLATE"
@@ -251,5 +250,11 @@ replace only "TRANSLATE" text!
 		
 		"GameUI_MouseRaw_ToolTip"	"TRANSLATE"
 		"[english]GameUI_MouseRaw_ToolTip"	"Raw input reads mouse movement directly from the device, bypassing control panel mouse settings, and providing more reliable mouse movement."
+		
+		"ClientMod_FlashWindow"	"TRANSLATE"
+		"[english]ClientMod_FlashWindow"	"Flash window if a player is respawn"
+		
+		"ClientMod_FlashWindow_ToolTip"	"TRANSLATE
+		"[english]ClientMod_FlashWindow_ToolTip"	"So for example you can understand when it's time to return to the game"
 	}
 }
