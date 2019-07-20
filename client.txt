@@ -259,5 +259,8 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_FlashWindow_ToolTip"				"TRANSLATE"
 		"[english]ClientMod_FlashWindow_ToolTip"	"So for example you can understand when it's time to return to the game"
+		
+		"ClientMod_CircleRadar"						"TRANSLATE"
+		"[english]ClientMod_CircleRadar"			"Circle"
 	}
 }

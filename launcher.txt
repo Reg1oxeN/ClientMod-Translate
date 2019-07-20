@@ -41,6 +41,6 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
    
    <Token tag="Launcher_UpdateRestart" text="Launcher updated.\nPlease run it again."/>
    <Token tag="Launcher_UpdateError" text="Update failed.\nPlease restart launcher."/>
-   <Token tag="Launcher_InvalidPath" text="Invalid characters found. The game may not work correctly.%invalid_path%"/>
+   <Token tag="Launcher_InvalidPath" text="Invalid characters found. The game cannot be started.%invalid_path%"/>
 
 </Translate>
