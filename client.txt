@@ -262,5 +262,8 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_CircleRadar"						"TRANSLATE"
 		"[english]ClientMod_CircleRadar"			"Circle"
+		
+		"ClientMod_AntiCheat"						"TRANSLATE"
+		"[english]ClientMod_AntiCheat"				"Note: ClientMod is not an anti-cheat."
 	}
 }
