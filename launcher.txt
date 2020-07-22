@@ -12,38 +12,69 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 
 <?xml version="1.0" type="translate"?>
 <Translate>
-   <Language text="English"/>
-   <Token tag="Install_Button" text="INSTALL"/>
-   <Token tag="Install_ErrorNotAbsolute" text="The path must be absolute!"/>
-   <Token tag="Install_ErrorNotDir" text="This is not a folder!"/>
-   <Token tag="Install_ErrorNotEmptyDir" text="Folder must be empty!"/>
-   <Token tag="Install_ErrorInstall" text="Something interferes with the work of the launcher."/>
-   <Token tag="Title_Error" text="Error"/>
-   <Token tag="Play_Button" text="PLAY"/>
-   <Token tag="Launcher_CheckUpdate" text="CHECKING FOR LAUNCHER UPDATES..."/>
-   <Token tag="Game_CheckUpdate" text="CHECKING FOR GAME UPDATES..."/>
-   <Token tag="Download_Update" text="DOWNLOADING UPDATES..."/>
-   <Token tag="Game_ReadyToPlay" text="IS UP TO DATE!"/>
-   <Token tag="Game_UpdateError" text="GAME UPDATE ERROR!"/>
-   <Token tag="Launcher_Unpacking" text="UNPACKING"/>
-   <Token tag="Launcher_UpdateError" text="LAUNCHER UPDATE ERROR!"/>
-   
-   <Token tag="Settings_DisplayMode" text="Display Mode"/>
-   <Token tag="Settings_WindowFullScreen" text="Fullscreen"/>
-   <Token tag="Settings_WindowNormal" text="Windowed"/>
-   <Token tag="Settings_WindowNoBorder" text="Borderless Fullscreen"/>
-   <Token tag="Settings_VideoResolution" text="Video Resolution"/>
-   <Token tag="Settings_RefreshRate" text="Refresh Rate"/>
-   <Token tag="Settings_AspectRatio" text="Aspect Ratio"/>
-   <Token tag="Settings_Default" text="Default"/>
-   <Token tag="Settings_GameDX" text="Game DirectX"/>
-   <Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
-   <Token tag="Settings_New" text="New"/>
-   <Token tag="Settings_LaunchParams" text="Launch Params"/>
-   
-   <Token tag="Launcher_AutoplayUpdateRestart" text="Launcher updated.\nPlease run it again."/>
-   <Token tag="Launcher_AutoplayUpdateError" text="Update failed.\nPlease restart launcher."/>
-   <Token tag="Launcher_InvalidPath" text="Invalid characters found. The game cannot be started.%invalid_path%"/>
-   <Token tag="Launcher_RunAdmin" text="Try relaunch ClientMod as Administrator."/>
+	<Language text="English"/>
+	<Token tag="Install_Button" text="INSTALL"/>
+	<Token tag="Install_ErrorNotAbsolute" text="The path must be absolute!"/>
+	<Token tag="Install_ErrorNotDir" text="This is not a folder!"/>
+	<Token tag="Install_ErrorNotEmptyDir" text="Folder must be empty!"/>
+	<Token tag="Install_ErrorInstall" text="Something interferes with the work of the launcher."/>
+	<Token tag="Install_ErrorShortcut" text="Failed to create shortcut."/>
+	<Token tag="Install_ErrorDesktop" text="Failed to find Desktop path."/>
+	<Token tag="Install_Shortcut" text="Create desktop shortcut"/>
 
+	<Token tag="Title_Error" text="Error"/>
+	<Token tag="Play_Button" text="PLAY"/>
+
+	<Token tag="Game_ReadyToPlay" text="IS UP TO DATE!"/>
+
+	<Token tag="Game_UpdateError" text="Game update error!"/>
+	<Token tag="Launcher_UpdateError" text="Launcher update error!"/>
+
+	<Token tag="Launcher_Updating" text="Updating launcher"/>
+	<Token tag="Game_Updating" text="Updating game"/>
+	<Token tag="Launcher_CheckUpdate" text="Checking for launcher updates"/>
+	<Token tag="Game_CheckUpdate" text="Checking for game updates"/>
+	<Token tag="Launcher_Remaining" text="remaining"/>
+	<Token tag="Launcher_Preparing" text="preparing"/>
+	<Token tag="Launcher_Unpacking" text="unpacking archives"/>
+	<Token tag="Launcher_Finalizing" text="finalizing"/>
+	<Token tag="Launcher_Initializing" text="Initializing"/>
+	<Token tag="Launcher_Restarting" text="Restarting"/>
+
+
+	<Token tag="Settings_DisplayMode" text="Display Mode"/>
+	<Token tag="Settings_WindowFullScreen" text="Fullscreen"/>
+	<Token tag="Settings_WindowNormal" text="Windowed"/>
+	<Token tag="Settings_WindowNoBorder" text="Borderless Fullscreen"/>
+	<Token tag="Settings_VideoResolution" text="Video Resolution"/>
+	<Token tag="Settings_RefreshRate" text="Refresh Rate"/>
+	<Token tag="Settings_AspectRatio" text="Aspect Ratio"/>
+	<Token tag="Settings_Default" text="Default"/>
+	<Token tag="Settings_GameDX" text="Game DirectX"/>
+	<Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
+	<Token tag="Settings_LauncherScale" text="Launcher scale"/>
+	<Token tag="Settings_New" text="New"/>
+	<Token tag="Settings_LaunchParams" text="Launch Params"/>
+
+	<Token tag="Menu_Main" text="Home"/>
+	<Token tag="Menu_Updates" text="Updates"/>
+	<Token tag="Menu_Activity" text="Activity"/>
+	<Token tag="Menu_Settings" text="Settings"/>
+	<Token tag="Menu_Mods" text="Mods"/>
+
+	<Token tag="Info_Version" text="Version"/>
+	<Token tag="Info_Online" text="Online"/>
+	<Token tag="Info_OnlineToday" text="Total for today was"/>
+	<Token tag="Info_OnlinePerDay" text="Total per day was"/>
+
+
+	<Token tag="Launcher_AutoplayUpdateRestart" text="Launcher updated.\nPlease run it again."/>
+	<Token tag="Launcher_AutoplayUpdateError" text="Update failed.\nPlease restart launcher."/>
+	<Token tag="Launcher_InvalidPath" text="Invalid characters found. The game cannot be started.%invalid_path%"/>
+	<Token tag="Launcher_RunAdmin" text="Try relaunch ClientMod as Administrator."/>
+
+	<Token tag="Launcher_Beta_CheckBox" text="I understand"/>
+	<Token tag="Launcher_Beta_Accept" text="Accept"/>
+	<Token tag="Launcher_Beta_Cancel" text="Cancel"/>
 </Translate>
+

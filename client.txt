@@ -143,9 +143,6 @@ replace only "TRANSLATE" text!
 		"ClientMod_HudColored"						"TRANSLATE"
 		"[english]ClientMod_HudColored"				"Colored Hud"
 		
-		"ClientMod_ScoreboardOther"					"TRANSLATE"
-		"[english]ClientMod_ScoreboardOther"		"New scoreboard"
-		
 		"ClientMod_MotdOther"						"TRANSLATE"
 		"[english]ClientMod_MotdOther"				"Disable motd"
 		
@@ -193,9 +190,6 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_NoBorder"						"TRANSLATE"
 		"[english]ClientMod_NoBorder"				"Borderless window mode"
-		
-		"ClientMod_Discord"							"Discord Now Playing"
-		"ClientMod_Discord_ToolTip"					"TRANSLATE"
 		
 		"ClientMod_ToTopMenu"						"TRANSLATE"
 		"[english]ClientMod_ToTopMenu"				"Always visible"
@@ -265,5 +259,11 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_AntiCheat"						"TRANSLATE"
 		"[english]ClientMod_AntiCheat"				"Note: ClientMod is not an anti-cheat."
+		
+		"ClientMod_Scoreboard"						"TRANSLATE"
+		"[english]ClientMod_Scoreboard"				"Scoreboard"
+		
+		"ClientMod_ScoreboardClassic"				"TRANSLATE"
+		"[english]ClientMod_ScoreboardClassic"		"Classic"
 	}
 }
