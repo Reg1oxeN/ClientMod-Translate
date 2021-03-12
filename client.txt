@@ -265,5 +265,32 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_ScoreboardClassic"				"TRANSLATE"
 		"[english]ClientMod_ScoreboardClassic"		"Classic"
+		
+		"ClientMod_ChatConsole"						"TRANSLATE"
+		"[english]ClientMod_ChatConsole"			"Console chat"
+		
+		"ClientMod_ChatConsoleDisabled"				"TRANSLATE"
+		"[english]ClientMod_ChatConsoleDisabled"	"Disabled"
+		
+		"ClientMod_ChatConsoleDefault"				"TRANSLATE"
+		"[english]ClientMod_ChatConsoleDefault"		"Default"
+		
+		"ClientMod_ChatConsoleColored"				"TRANSLATE"
+		"[english]ClientMod_ChatConsoleColored"		"Colored"
+		
+		"ClientMod_ChatSound"						"TRANSLATE"
+		"[english]ClientMod_ChatSound"				"Sound chat notifications"
+		
+		"ClientMod_ImpactEffect"					"TRANSLATE"
+		"[english]ClientMod_ImpactEffect"			"New impact effects"
+		
+		"ClientMod_NewBob"							"TRANSLATE"
+		"[english]ClientMod_NewBob"					"New bobbing animation"
+		
+		"ClientMod_WeaponTracer"					"TRANSLATE"
+		"[english]ClientMod_WeaponTracer"			"Bullet tracers"
+		
+		"ClientMod_ShaderAlmostLike"				"TRANSLATE"
+		"[english]ClientMod_ShaderAlmostLike"		"Shader almost like v34"
 	}
 }

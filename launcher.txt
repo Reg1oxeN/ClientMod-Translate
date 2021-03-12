@@ -32,8 +32,21 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 
 	<Token tag="Launcher_Updating" text="Updating launcher"/>
 	<Token tag="Game_Updating" text="Updating game"/>
+	<Token tag="Vpk_Updating" text="Updating game archives"/>
 	<Token tag="Launcher_CheckUpdate" text="Checking for launcher updates"/>
 	<Token tag="Game_CheckUpdate" text="Checking for game updates"/>
+	
+	<Token tag="p2p_queued_for_checking" text="checking files"/>
+	<Token tag="p2p_checking_files" text="checking files"/>
+	<Token tag="p2p_downloading_metadata" text="receiving data"/>
+	<Token tag="p2p_downloading" text="downloading"/>
+	<Token tag="p2p_finished" text="finishing"/>
+	<Token tag="p2p_seeding" text="seeding"/>
+	<Token tag="p2p_allocating" text="allocation of space"/>
+	<Token tag="p2p_preparing" text="preparing"/>
+	<Token tag="p2p_unknown" text="unknown"/>
+	
+	
 	<Token tag="Launcher_Remaining" text="remaining"/>
 	<Token tag="Launcher_Preparing" text="preparing"/>
 	<Token tag="Launcher_Unpacking" text="unpacking archives"/>
@@ -52,11 +65,16 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_Default" text="Default"/>
 	<Token tag="Settings_GameDX" text="Game DirectX"/>
 	<Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
-	<Token tag="Settings_LauncherScale" text="Launcher scale"/>
+	<Token tag="Settings_LauncherScale" text="Launcher Scale"/>
 	<Token tag="Settings_New" text="New"/>
 	<Token tag="Settings_LaunchParams" text="Launch Params"/>
+	<Token tag="Settings_Enabled" text="Enabled"/>
+	<Token tag="Settings_Disabled" text="Disabled"/>
+	<Token tag="Settings_DownloadServer" text="Download Server"/>
+	<Token tag="Settings_UploadSpeed" text="Maximum content sharing rate"/>
 
 	<Token tag="Menu_Main" text="Home"/>
+	<Token tag="Menu_Profile" text="Subscription"/>
 	<Token tag="Menu_Updates" text="Updates"/>
 	<Token tag="Menu_Activity" text="Activity"/>
 	<Token tag="Menu_Settings" text="Settings"/>
@@ -80,6 +98,37 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Launcher_Error_Text" text="Try restarting the launcher.\nIf the error persists, send the log to the developer."/>
 	<Token tag="Launcher_Error_Log" text="Show log"/>
 	<Token tag="Launcher_Error_Copy" text="Copy to clipboard"/>
+	
+	<Token tag="Launcher_Info_Vk" text="Group ClientMod VKontakte.\nMainly for Russian speaking players."/>
+	<Token tag="Launcher_Info_Discord" text="Discord server for communication\nwith the developer and other players."/>
+	<Token tag="Launcher_Info_Patreon" text="Boosty to support project and\nbenefit from the subscription."/>
+	
+	<Token tag="Server_NotResponding" text="< not responding >"/>
+	<Token tag="Server_PlayerName" text="Player Name"/>
+	<Token tag="Server_Score" text="Score"/>
+	<Token tag="Server_Time" text="Time"/>
+	<Token tag="Server_ServerName" text="Name"/>
+	<Token tag="Server_IPAddress" text="IP Address"/>
+	<Token tag="Server_Game" text="Game"/>
+	<Token tag="Server_Map" text="Map"/>
+	<Token tag="Server_Server" text="Server"/>
+	<Token tag="Server_Players" text="Players"/>
+	<Token tag="Server_Password" text="Password"/>
+	<Token tag="Server_Latency" text="Latency"/>
+	<Token tag="Server_Connect" text="Connect"/>
+	
+	<Token tag="Auth_Help_Info" text="Be sure to read the instructions!"/>
+	<Token tag="Auth_Help_Info2" text="Subscribed and don't know what to do?"/>
+	<Token tag="Auth_Help_Button" text="Visit instructions page"/>
+	<Token tag="Auth_Hint" text="Enter token"/>
+	<Token tag="Auth_Button" text="ASSOCIATE"/>
+	<Token tag="Auth_Network_Disconnected" text="No connection to ClientModNetwork!"/>
+	<Token tag="Auth_Network_Wait" text="authorization in progress"/>
+	<Token tag="Auth_Network_TokenNotFound" text="The token is deprecated!"/>
+	<Token tag="Auth_Network_UnknownError" text="Unknown error!"/>
+	<Token tag="Auth_Exit" text="Log out"/>
+	<Token tag="Auth_TokenPaste" text="Paste from clipboard"/>
+	<Token tag="Auth_AvatarEdit" text="Edit"/>
 	
 </Translate>
 
