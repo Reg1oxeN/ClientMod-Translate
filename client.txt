@@ -33,7 +33,7 @@ replace only "TRANSLATE" text!
 		"[english]ClientMod_DynamicCrosshair"		"Dynamic crosshair"
 		
 		"ClientMod_DynamicShotCrosshair"			"TRANSLATE"
-		"[english]ClientMod_DynamicShotCrosshair"	"Expansion in shoot
+		"[english]ClientMod_DynamicShotCrosshair"	"Expansion in shoot"
 		
 		"ClientMod_Trash"							""
 		"[english]ClientMod_Trash"					""
