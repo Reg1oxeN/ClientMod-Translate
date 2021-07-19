@@ -63,7 +63,8 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_RefreshRate" text="Refresh Rate"/>
 	<Token tag="Settings_AspectRatio" text="Aspect Ratio"/>
 	<Token tag="Settings_Default" text="Default"/>
-	<Token tag="Settings_GameDX" text="Game DirectX"/>
+	<Token tag="Settings_GraphicsAPI" text="Graphics API"/>
+	<Token tag="Settings_ExGraphicsAPI" text="Extended graphics API"/>
 	<Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
 	<Token tag="Settings_LauncherScale" text="Launcher Scale"/>
 	<Token tag="Settings_New" text="New"/>
@@ -72,6 +73,7 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_Disabled" text="Disabled"/>
 	<Token tag="Settings_DownloadServer" text="Download Server"/>
 	<Token tag="Settings_UploadSpeed" text="Maximum content sharing rate"/>
+	<Token tag="Settings_CefAcceleration" text="Browser acceleration"/>
 
 	<Token tag="Menu_Main" text="Home"/>
 	<Token tag="Menu_Profile" text="Subscription"/>

@@ -292,5 +292,11 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_ShaderAlmostLike"				"TRANSLATE"
 		"[english]ClientMod_ShaderAlmostLike"		"Shader almost like v34"
+		
+		"ClientMod_SniperScopeThickness"			"TRANSLATE"
+		"[english]ClientMod_SniperScopeThickness"	"Sniper scope thickness"
+		
+		"ClientMod_SniperScopeBlur"					"TRANSLATE"
+		"[english]ClientMod_SniperScopeBlur"		"Sniper scope blur"
 	}
 }
