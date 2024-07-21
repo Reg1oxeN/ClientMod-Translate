@@ -17,13 +17,14 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Install_ErrorNotAbsolute" text="The path must be absolute!"/>
 	<Token tag="Install_ErrorNotDir" text="This is not a folder!"/>
 	<Token tag="Install_ErrorNotEmptyDir" text="Folder must be empty!"/>
-	<Token tag="Install_ErrorInstall" text="Something interferes with the work of the launcher."/>
+	<Token tag="Install_ErrorInstall" text="Something got in the way during installation.\nMost likely it was an antivirus."/>
 	<Token tag="Install_ErrorShortcut" text="Failed to create shortcut."/>
 	<Token tag="Install_ErrorDesktop" text="Failed to find Desktop path."/>
 	<Token tag="Install_Shortcut" text="Create desktop shortcut"/>
 
 	<Token tag="Title_Error" text="Error"/>
 	<Token tag="Play_Button" text="PLAY"/>
+	<Token tag="Restart_Button" text="RESTART"/>
 
 	<Token tag="Game_ReadyToPlay" text="IS UP TO DATE!"/>
 
@@ -45,6 +46,7 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="p2p_allocating" text="allocation of space"/>
 	<Token tag="p2p_preparing" text="preparing"/>
 	<Token tag="p2p_unknown" text="unknown"/>
+	<Token tag="p2p_timeout" text="search peers"/>
 	
 	
 	<Token tag="Launcher_Remaining" text="remaining"/>
@@ -71,9 +73,14 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_LaunchParams" text="Launch Params"/>
 	<Token tag="Settings_Enabled" text="Enabled"/>
 	<Token tag="Settings_Disabled" text="Disabled"/>
-	<Token tag="Settings_DownloadServer" text="Download Server"/>
+	<Token tag="Settings_DownloadServer" text="Update Server"/>
 	<Token tag="Settings_UploadSpeed" text="Maximum content sharing rate"/>
 	<Token tag="Settings_CefAcceleration" text="Browser acceleration"/>
+	<Token tag="Settings_CefAcceleration_Cpu" text="CPU"/>
+	<Token tag="Settings_CefAcceleration_GpuPartially" text="GPU (partially)"/>
+	<Token tag="Settings_CefAcceleration_GpuFull" text="GPU (full, 60fps)"/>
+	<Token tag="Settings_CefAcceleration_Gpu120" text="GPU (full, 120fps)"/>
+	<Token tag="Settings_RestartRequired" text="Launcher restart required"/>
 
 	<Token tag="Menu_Main" text="Home"/>
 	<Token tag="Menu_Profile" text="Subscription"/>
@@ -98,12 +105,16 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Launcher_Beta_Cancel" text="Cancel"/>
 	
 	<Token tag="Launcher_Error_Text" text="Try restarting the launcher.\nIf the error persists, send the log to the developer."/>
+	<Token tag="Launcher_Error_Antivirus" text="Your antivirus is blocking the update of the game.\nDisable your antivirus and try again.\n\nIf the error persists, then add the game folder\nto the antivirus exclusion and restart your PC."/>
+	<Token tag="Launcher_Error_Disk" text="Your hard drive is damaged.\nBuy a new one or use Google to find possible solutions."/>
 	<Token tag="Launcher_Error_Log" text="Show log"/>
 	<Token tag="Launcher_Error_Copy" text="Copy to clipboard"/>
+	<Token tag="Launcher_Error_Timeout" text="Failed to check for updates.\n\nCheck your Internet connection\nand that there are no firewall blocks."/>
+	<Token tag="Launcher_Error_DiskSpace" text="There is not enough free disk space to update the game."/>
 	
 	<Token tag="Launcher_Info_Vk" text="Group ClientMod VKontakte.\nMainly for Russian speaking players."/>
 	<Token tag="Launcher_Info_Discord" text="Discord server for communication\nwith the developer and other players."/>
-	<Token tag="Launcher_Info_Patreon" text="Boosty to support project and\nbenefit from the subscription."/>
+	<Token tag="Launcher_Info_Boosty" text="Boosty to support project and\nbenefit from the subscription."/>
 	
 	<Token tag="Server_NotResponding" text="< not responding >"/>
 	<Token tag="Server_PlayerName" text="Player Name"/>
@@ -132,5 +143,14 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Auth_TokenPaste" text="Paste from clipboard"/>
 	<Token tag="Auth_AvatarEdit" text="Edit"/>
 	
+	<Token tag="Profile_SubscriptionLevel" text="Subscription Level"/>
+	<Token tag="Profile_SubscriptionFree" text="No subscription."/>
+	
+	<Token tag="Launcher_Anticheat" text="Anticheat: "/>
+	<Token tag="Launcher_Anticheat_Allowed" text="Affects the ability to connect to secure\nservers and increases trust in you as a player."/>
+	<Token tag="Launcher_Anticheat_NotAvailable" text="Requires connection to ClientModNetwork."/>
+	<Token tag="Launcher_Anticheat_Unsupported" text="Requires 64-bit windows."/>
+	
+	<Token tag="Launcher_NotAvailable" text="Not available"/>
+	<Token tag="Launcher_Unsupported" text="Unsupported"/>
 </Translate>
-

@@ -298,5 +298,23 @@ replace only "TRANSLATE" text!
 		
 		"ClientMod_SniperScopeBlur"					"TRANSLATE"
 		"[english]ClientMod_SniperScopeBlur"		"Sniper scope blur"
+		
+		"ClientMod_AspectRatioMode"					"TRANSLATE"
+		"[english]ClientMod_AspectRatioMode"		"Aspect Ratio Mode"
+		
+		"ClientMod_WeaponNearEmpty"					"TRANSLATE"
+		"[english]ClientMod_WeaponNearEmpty"		"Sound of near empty weapon"
+		
+		"ClientMod_CloseOnBuy"						"TRANSLATE"
+		"[english]ClientMod_CloseOnBuy"				"Close buy menu after purchase"
+		
+		"ClientMod_ScreenoverlayDisableToolTip"					"TRANSLATE"
+		"[english]ClientMod_ScreenoverlayDisableToolTip"		"Full screen images, often used in public to show a kill or the end of a round"
+		
+		"ClientMod_MotdOtherToolTip"							"TRANSLATE"
+		"[english]ClientMod_MotdOtherToolTip"					"Welcome window. When you join the server, it is always displayed before choosing a team"
+		
+		"ClientMod_ChatTimestampOtherToolTip"					"TRANSLATE"
+		"[english]ClientMod_ChatTimestampOtherToolTip"			"Displays your local time before every chat message"
 	}
 }
