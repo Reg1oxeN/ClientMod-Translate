@@ -25,17 +25,24 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Title_Error" text="Error"/>
 	<Token tag="Play_Button" text="PLAY"/>
 	<Token tag="Restart_Button" text="RESTART"/>
+	<Token tag="Update_Button" text="UPDATE"/>
 
-	<Token tag="Game_ReadyToPlay" text="IS UP TO DATE!"/>
+	<Token tag="UpdateCheck" text="Checking for updates"/>
+	<Token tag="UpdateError" text="Update error!"/>
 
-	<Token tag="Game_UpdateError" text="Game update error!"/>
-	<Token tag="Launcher_UpdateError" text="Launcher update error!"/>
+	<Token tag="UpdatingLauncher" text="Updating launcher"/>
+	<Token tag="UpdatingGame" text="Updating game"/>
+	<Token tag="UpdatingResources" text="Updating resources"/>
+	
+	<Token tag="UpdateCheckLauncher" text="Checking for launcher updates"/>
+	<Token tag="UpdateCheckGame" text="Checking for game updates"/>
+	<Token tag="UpdateCheckResources" text="Checking for resource updates"/>
 
-	<Token tag="Launcher_Updating" text="Updating launcher"/>
-	<Token tag="Game_Updating" text="Updating game"/>
-	<Token tag="Vpk_Updating" text="Updating game archives"/>
-	<Token tag="Launcher_CheckUpdate" text="Checking for launcher updates"/>
-	<Token tag="Game_CheckUpdate" text="Checking for game updates"/>
+	<Token tag="UpdateRemaining" text="remaining"/>
+	<Token tag="UpdatePreparing" text="preparing"/>
+	<Token tag="UpdateInitializing" text="Initializing"/>
+	<Token tag="UpdateRestarting" text="Restarting"/>
+  
 	
 	<Token tag="p2p_queued_for_checking" text="checking files"/>
 	<Token tag="p2p_checking_files" text="checking files"/>
@@ -48,14 +55,6 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="p2p_unknown" text="unknown"/>
 	<Token tag="p2p_timeout" text="search peers"/>
 	
-	
-	<Token tag="Launcher_Remaining" text="remaining"/>
-	<Token tag="Launcher_Preparing" text="preparing"/>
-	<Token tag="Launcher_Unpacking" text="unpacking archives"/>
-	<Token tag="Launcher_Finalizing" text="finalizing"/>
-	<Token tag="Launcher_Initializing" text="Initializing"/>
-	<Token tag="Launcher_Restarting" text="Restarting"/>
-
 
 	<Token tag="Settings_DisplayMode" text="Display Mode"/>
 	<Token tag="Settings_WindowFullScreen" text="Fullscreen"/>
@@ -65,52 +64,43 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_RefreshRate" text="Refresh Rate"/>
 	<Token tag="Settings_AspectRatio" text="Aspect Ratio"/>
 	<Token tag="Settings_Default" text="Default"/>
-	<Token tag="Settings_GraphicsAPI" text="Graphics API"/>
-	<Token tag="Settings_ExGraphicsAPI" text="Extended graphics API"/>
-	<Token tag="Settings_LauncherDX" text="Launcher DirectX"/>
+	<Token tag="Settings_GameGraphicsAPI" text="Game Graphics API"/>
+	<Token tag="Settings_LauncherGraphicsAPI" text="Launcher Graphic API"/>
 	<Token tag="Settings_LauncherScale" text="Launcher Scale"/>
 	<Token tag="Settings_New" text="New"/>
 	<Token tag="Settings_LaunchParams" text="Launch Params"/>
 	<Token tag="Settings_Enabled" text="Enabled"/>
 	<Token tag="Settings_Disabled" text="Disabled"/>
 	<Token tag="Settings_DownloadServer" text="Update Server"/>
-	<Token tag="Settings_UploadSpeed" text="Maximum content sharing rate"/>
+	<Token tag="Settings_UploadSpeed" text="Maximum resources sharing rate during the game"/>
 	<Token tag="Settings_CefAcceleration" text="Browser acceleration"/>
 	<Token tag="Settings_CefAcceleration_Cpu" text="CPU"/>
 	<Token tag="Settings_CefAcceleration_GpuPartially" text="GPU (partially)"/>
 	<Token tag="Settings_CefAcceleration_GpuFull" text="GPU (full, 60fps)"/>
 	<Token tag="Settings_CefAcceleration_Gpu120" text="GPU (full, 120fps)"/>
 	<Token tag="Settings_RestartRequired" text="Launcher restart required"/>
+	<Token tag="Settings_DiscordActivity" text="Discord Activity"/>
 
 	<Token tag="Menu_Main" text="Home"/>
 	<Token tag="Menu_Profile" text="Subscription"/>
 	<Token tag="Menu_Updates" text="Updates"/>
 	<Token tag="Menu_Activity" text="Activity"/>
 	<Token tag="Menu_Settings" text="Settings"/>
-	<Token tag="Menu_Mods" text="Mods"/>
 
 	<Token tag="Info_Version" text="Version"/>
 	<Token tag="Info_Online" text="Online"/>
 	<Token tag="Info_OnlineToday" text="Total for today was"/>
 	<Token tag="Info_OnlinePerDay" text="Total per day was"/>
 
-
-	<Token tag="Launcher_AutoplayUpdateRestart" text="Launcher updated.\nPlease run it again."/>
-	<Token tag="Launcher_AutoplayUpdateError" text="Update failed.\nPlease restart launcher."/>
+	<Token tag="Launcher_AutoplayUpdateRestart" text="Update found.\nPlease run it again."/>
 	<Token tag="Launcher_InvalidPath" text="Invalid characters found. The game cannot be started.%invalid_path%"/>
-	<Token tag="Launcher_RunAdmin" text="Try relaunch ClientMod as Administrator."/>
 
-	<Token tag="Launcher_Beta_CheckBox" text="I understand"/>
-	<Token tag="Launcher_Beta_Accept" text="Accept"/>
-	<Token tag="Launcher_Beta_Cancel" text="Cancel"/>
-	
 	<Token tag="Launcher_Error_Text" text="Try restarting the launcher.\nIf the error persists, send the log to the developer."/>
 	<Token tag="Launcher_Error_Antivirus" text="Your antivirus is blocking the update of the game.\nDisable your antivirus and try again.\n\nIf the error persists, then add the game folder\nto the antivirus exclusion and restart your PC."/>
-	<Token tag="Launcher_Error_Disk" text="Your hard drive is damaged.\nBuy a new one or use Google to find possible solutions."/>
 	<Token tag="Launcher_Error_Log" text="Show log"/>
 	<Token tag="Launcher_Error_Copy" text="Copy to clipboard"/>
 	<Token tag="Launcher_Error_Timeout" text="Failed to check for updates.\n\nCheck your Internet connection\nand that there are no firewall blocks."/>
-	<Token tag="Launcher_Error_DiskSpace" text="There is not enough free disk space to update the game."/>
+	<Token tag="Launcher_Error_DiskSpace" text="Disk %disk% requires at least %size% free spaces."/>
 	
 	<Token tag="Launcher_Info_Vk" text="Group ClientMod VKontakte.\nMainly for Russian speaking players."/>
 	<Token tag="Launcher_Info_Discord" text="Discord server for communication\nwith the developer and other players."/>
@@ -146,11 +136,13 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Profile_SubscriptionLevel" text="Subscription Level"/>
 	<Token tag="Profile_SubscriptionFree" text="No subscription."/>
 	
-	<Token tag="Launcher_Anticheat" text="Anticheat: "/>
-	<Token tag="Launcher_Anticheat_Allowed" text="Affects the ability to connect to secure\nservers and increases trust in you as a player."/>
-	<Token tag="Launcher_Anticheat_NotAvailable" text="Requires connection to ClientModNetwork."/>
-	<Token tag="Launcher_Anticheat_Unsupported" text="Requires 64-bit windows."/>
+	<Token tag="Anticheat" text="Anticheat: "/>
+	<Token tag="Anticheat_NotAvailable" text="Not available"/>
+	<Token tag="Anticheat_Unsupported" text="Unsupported"/>
+	<Token tag="Anticheat_Tooltip_Allowed" text="Affects the ability to connect to secure\nservers and increases trust in you as a player."/>
+	<Token tag="Anticheat_Tooltip_NotAvailable" text="Requires connection to ClientModNetwork."/>
+	<Token tag="Anticheat_Tooltip_Unsupported" text="Requires 64-bit windows."/>
 	
-	<Token tag="Launcher_NotAvailable" text="Not available"/>
-	<Token tag="Launcher_Unsupported" text="Unsupported"/>
 </Translate>
+
+
