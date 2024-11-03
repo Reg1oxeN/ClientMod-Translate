@@ -42,7 +42,8 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="UpdatePreparing" text="preparing"/>
 	<Token tag="UpdateInitializing" text="Initializing"/>
 	<Token tag="UpdateRestarting" text="Restarting"/>
-  
+
+	<Token tag="GameLaunch" text="Please wait, the game is launching"/>
 	
 	<Token tag="p2p_queued_for_checking" text="checking files"/>
 	<Token tag="p2p_checking_files" text="checking files"/>
@@ -80,6 +81,7 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Settings_CefAcceleration_Gpu120" text="GPU (full, 120fps)"/>
 	<Token tag="Settings_RestartRequired" text="Launcher restart required"/>
 	<Token tag="Settings_DiscordActivity" text="Discord Activity"/>
+	<Token tag="Settings_MaxParallelDownloads" text="Parallel downloads limit"/>
 
 	<Token tag="Menu_Main" text="Home"/>
 	<Token tag="Menu_Profile" text="Subscription"/>
@@ -144,5 +146,3 @@ example: text="REPLACE THIS TEXT FOR TRANSLATE"
 	<Token tag="Anticheat_Tooltip_Unsupported" text="Requires 64-bit windows."/>
 	
 </Translate>
-
-
